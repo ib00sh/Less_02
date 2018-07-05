@@ -6,8 +6,8 @@ public class Array {
     public static void main(String[] args) throws MyArraySizeExeption, MyArrayDataException {
         int sum = 0;
         Random random = new Random();
-       // String[][] sArray = new String[4][4];
-        String[][] arrayStr = new String[4][5];
+        String[][] arrayStr = new String[4][4];
+        // String[][] arrayStr = new String[4][5];
 
         for(int i = 0; i < 4; i++) {
             for(int j = 0; j < 4; j++) {
